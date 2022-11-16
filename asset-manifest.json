@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chanchiferos_landing_2/static/css/main.3dd07058.css",
-    "main.js": "/chanchiferos_landing_2/static/js/main.73db66ec.js",
-    "static/media/pig-offer.png": "/chanchiferos_landing_2/static/media/pig-offer.3ea36828dc1e41369c29.png",
-    "static/media/big_pig.png": "/chanchiferos_landing_2/static/media/big_pig.9e460560fd5c4870a249.png",
-    "static/media/boar.png": "/chanchiferos_landing_2/static/media/boar.f9339245f2d4cf2483e2.png",
-    "static/media/sad-pig.png": "/chanchiferos_landing_2/static/media/sad-pig.4868b751155e755d5850.png",
-    "static/media/3p.png": "/chanchiferos_landing_2/static/media/3p.2006637adccf67783d9d.png",
-    "static/media/4p.png": "/chanchiferos_landing_2/static/media/4p.b71f7c95935977a307d0.png",
-    "static/media/2p.png": "/chanchiferos_landing_2/static/media/2p.d5eb2b1ca2773f2f7275.png",
-    "static/media/wave.png": "/chanchiferos_landing_2/static/media/wave.b6829a64c0dfbe41ce4b.png",
-    "static/media/pigsPainting.jpg": "/chanchiferos_landing_2/static/media/pigsPainting.c24a3936176c7bc03a3d.jpg",
-    "index.html": "/chanchiferos_landing_2/index.html",
-    "main.3dd07058.css.map": "/chanchiferos_landing_2/static/css/main.3dd07058.css.map",
-    "main.73db66ec.js.map": "/chanchiferos_landing_2/static/js/main.73db66ec.js.map"
+    "main.css": "/chanchiferos_landing2/static/css/main.61779a9b.css",
+    "main.js": "/chanchiferos_landing2/static/js/main.295c8321.js",
+    "static/media/pig-offer.png": "/chanchiferos_landing2/static/media/pig-offer.3ea36828dc1e41369c29.png",
+    "static/media/big_pig.png": "/chanchiferos_landing2/static/media/big_pig.9e460560fd5c4870a249.png",
+    "static/media/boar.png": "/chanchiferos_landing2/static/media/boar.f9339245f2d4cf2483e2.png",
+    "static/media/sad-pig.png": "/chanchiferos_landing2/static/media/sad-pig.4868b751155e755d5850.png",
+    "static/media/3p.png": "/chanchiferos_landing2/static/media/3p.2006637adccf67783d9d.png",
+    "static/media/4p.png": "/chanchiferos_landing2/static/media/4p.b71f7c95935977a307d0.png",
+    "static/media/2p.png": "/chanchiferos_landing2/static/media/2p.d5eb2b1ca2773f2f7275.png",
+    "static/media/wave.png": "/chanchiferos_landing2/static/media/wave.b6829a64c0dfbe41ce4b.png",
+    "static/media/pigsPainting.jpg": "/chanchiferos_landing2/static/media/pigsPainting.c24a3936176c7bc03a3d.jpg",
+    "index.html": "/chanchiferos_landing2/index.html",
+    "main.61779a9b.css.map": "/chanchiferos_landing2/static/css/main.61779a9b.css.map",
+    "main.295c8321.js.map": "/chanchiferos_landing2/static/js/main.295c8321.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dd07058.css",
-    "static/js/main.73db66ec.js"
+    "static/css/main.61779a9b.css",
+    "static/js/main.295c8321.js"
   ]
 }
