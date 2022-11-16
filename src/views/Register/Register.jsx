@@ -13,7 +13,7 @@ const Register = () => {
         backgroundSize: ' 100% 60%',
         backgroundPosition: 'bottom',
       }}
-      className="min-h-screen flex items-center w-full justify-center px-5 py-5 dark:bg-slate-800 transition-all"
+      className="min-h-screen bg-neutral-background flex items-center w-full justify-center px-5 py-5 dark:bg-slate-800 transition-all"
     >
       <div className="bg-gray-100 dark:bg-slate-700 text-gray-500 rounded-3xl shadow-xl w-[65%] overflow-hidden animate-fadeIn">
         <div className="md:flex w-full  m-3">

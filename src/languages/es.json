@@ -82,5 +82,7 @@
   "signInUpper": "INICIAR SESIÓN",
   "enterYourInformationSignIn": "Ingresa tu informacion para iniciar sesion",
 
-  "aboutUs": "Sobre nosotros"
+  "aboutUs": "Sobre nosotros",
+  "aboutUsUpper": "SOBRE NOSOTROS",
+  "moreAboutUs": "MAS SOBRE NOSOTROS"
 }

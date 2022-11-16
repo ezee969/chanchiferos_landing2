@@ -25,7 +25,7 @@ const Header = () => {
 
   const renderLinks = links.map(({ to, text }) => (
     <li
-      className=" text-lg text-neutral-50 hover:text-neutral-200 focus:text-neutral-200 font-san"
+      className=" text-neutral-50 hover:text-neutral-200 focus:text-neutral-200 font-san"
       key={to}
     >
       <Link to={to}>{text}</Link>

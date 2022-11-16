@@ -83,5 +83,7 @@
   "signInUpper": "SIGN IN",
   "enterYourInformationSignIn": "Enter your information to register",
 
-  "aboutUs": "About us"
+  "aboutUs": "About us",
+  "aboutUsUpper": "ABOUT US",
+  "moreAboutUs": "MORE ABOUT US"
 }

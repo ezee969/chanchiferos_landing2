@@ -6,7 +6,7 @@ const Product = ({ product }) => {
   if (!product) return <ProductNotFound />;
 
   return (
-    <div className="flex justify-center dark:bg-slate-800 w-full min-h-screen">
+    <div className="flex justify-center dark:bg-slate-800 bg-neutral-background w-full min-h-screen">
       <div className="py-48  grid grid-cols-2  w-[65%] gap-8">
         <ProductImages image={product.img} />
         <ProductInfo

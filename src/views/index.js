@@ -5,3 +5,6 @@ export { default as Product } from './Product';
 export { default as Register } from './Register';
 export { default as SignIn } from './SignIn';
 export { default as Home } from './Home';
+export { default as AboutUs } from './AboutUs';
+export { default as Cart } from './Cart';
+export { default as ContactUs } from './ContactUs';

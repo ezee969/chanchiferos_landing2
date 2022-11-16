@@ -8,7 +8,7 @@ import {
 
 const Products = () => {
   return (
-    <main className="flex flex-col text-slate-700 dark:bg-slate-800 w-full justify-center items-center">
+    <main className="flex flex-col text-slate-700 dark:bg-slate-800 w-full justify-center items-center bg-neutral-background">
       <section className="py-36 gap-24 flex flex-col items-center justify-center w-[65%]  ">
         <OfferCard />
         <div className="flex">

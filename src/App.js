@@ -1,7 +1,18 @@
 import { useContext } from 'react';
 import { ThemeContext } from 'context/theme';
 import { Routes, Route, useMatch } from 'react-router-dom';
-import { Header, Home, Footer, Product, Products, Register, SignIn } from 'views';
+import {
+  Header,
+  Home,
+  Footer,
+  Product,
+  Products,
+  Register,
+  SignIn,
+  AboutUs,
+  Cart,
+  ContactUs,
+} from 'views';
 import { products } from 'utils/files/products';
 
 function App() {
@@ -24,6 +35,9 @@ function App() {
         />
         <Route path={`${BASE_URL}/register`} element={<Register />} />
         <Route path={`${BASE_URL}/sign-in`} element={<SignIn />} />
+        <Route path={`${BASE_URL}/about-us`} element={<AboutUs />} />
+        <Route path={`${BASE_URL}/cart`} element={<Cart />} />
+        <Route path={`${BASE_URL}/contact-us`} element={<ContactUs />} />
       </Routes>
       <Footer />
     </div>
