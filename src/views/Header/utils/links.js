@@ -14,4 +14,8 @@ export const links = [
     to: '/chanchiferos_landing/products',
     text: <TranslatedText tid={'products'} />,
   },
+  {
+    to: '/chanchiferos_landing/about-us',
+    text: <TranslatedText tid={'aboutUs'} />,
+  },
 ];

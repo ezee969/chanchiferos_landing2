@@ -75,7 +75,11 @@
   "password": "Contraseña",
   "registerNow": "REGISTRARSE AHORA",
 
+  "rememberMe": "Recuérdame",
+  "forgotPassword": "¿Olvidaste tu contraseña?",
   "signIn": "Iniciar sesión",
   "signInUpper": "INICIAR SESIÓN",
-  "enterYourInformationSignIn": "Ingresa tu informacion para iniciar sesion"
+  "enterYourInformationSignIn": "Ingresa tu informacion para iniciar sesion",
+
+  "aboutUs": "Sobre nosotros"
 }

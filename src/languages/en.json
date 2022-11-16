@@ -76,7 +76,11 @@
   "password": "Password",
   "registerNow": "REGISTER NOW",
 
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
   "signIn": "Sign in",
   "signInUpper": "SIGN IN",
-  "enterYourInformationSignIn": "Enter your information to register"
+  "enterYourInformationSignIn": "Enter your information to register",
+
+  "aboutUs": "About us"
 }

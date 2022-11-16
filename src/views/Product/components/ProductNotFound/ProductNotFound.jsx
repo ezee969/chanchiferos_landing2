@@ -21,11 +21,11 @@ const ProductNotFound = () => {
           <div className="flex gap-5">
             <Link
               to={'/chanchiferos_landing/products'}
-              className="bg-rose-400 text-lg py-2 px-6 text-white rounded transition-all hover:bg-rose-500"
+              className="bg-positive-button text-lg py-2 px-6 text-white rounded transition-all hover:bg-positive-button-darker active:bg-positive-button-active"
             >
               <TranslatedText tid="visitProducts" />
             </Link>
-            <button className="border border-rose-400 text-rose-400 text-lg py-2 px-3 rounded transition-all hover:bg-amber-100">
+            <button className="border border-positive-button text-positive-button text-lg py-2 px-3 rounded transition-all hover:bg-amber-100">
               <TranslatedText tid="contactUs" />
             </button>
           </div>
