@@ -260,7 +260,7 @@ const Register = () => {
               <div className="flex -mx-3">
                 <div className="w-full px-3 mb-5">
                   <button className="block w-full max-w-xs mx-auto bg-positive-button hover:bg-positive-button-darker active:bg-positive-button-active text-white rounded-lg px-3 py-3 font-semibold">
-                    <TranslatedText tid={'registerNow'} />
+                    <TranslatedText tid={'registerNowLower'} />
                   </button>
                 </div>
               </div>

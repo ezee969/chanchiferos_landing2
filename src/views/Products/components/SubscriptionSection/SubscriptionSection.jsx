@@ -20,7 +20,7 @@ const SubscriptionSection = () => {
           placeholder="Email"
         />
         <button
-          className="flex items-center gap-1 button button-pink py-3 px-5 bg-red-500 rounded-r text-white transition-all hover:bg-red-600 active:bg-opacity-80"
+          className="flex items-center gap-1 button button-pink py-3 px-5 bg-positive-button rounded-r text-white transition-all hover:bg-positive-button-darker active:bg-opacity-80"
           data-ripple-light="true"
         >
           <TranslatedText tid="subscribe" />

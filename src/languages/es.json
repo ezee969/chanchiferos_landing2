@@ -74,6 +74,7 @@
   "email": "Correo electrónico",
   "password": "Contraseña",
   "registerNow": "REGISTRARSE AHORA",
+  "registerNowLower": "Registrarse ahora",
 
   "rememberMe": "Recuérdame",
   "forgotPassword": "¿Olvidaste tu contraseña?",

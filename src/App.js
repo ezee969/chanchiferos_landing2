@@ -5,7 +5,7 @@ import { Header, Home, Footer, Product, Products, Register, SignIn } from 'views
 import { products } from 'utils/files/products';
 
 function App() {
-  const BASE_URL = '/chanchiferos_landing';
+  const BASE_URL = '/chanchiferos_landing2';
   const { theme } = useContext(ThemeContext);
   const match = useMatch(`${BASE_URL}/products/:id`);
   const product = match

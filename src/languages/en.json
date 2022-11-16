@@ -75,6 +75,7 @@
   "email": "Email",
   "password": "Password",
   "registerNow": "REGISTER NOW",
+  "registerNowLower": "REGISTER NOW",
 
   "rememberMe": "Remember me",
   "forgotPassword": "Forgot password?",
