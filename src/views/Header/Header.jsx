@@ -51,7 +51,7 @@ const Header = () => {
       style={show ? styles.active : styles.hidden}
       className="flex w-full transition-all  bg-green-primary py-6 px-32 justify-between opacity-95 z-50 duration-[0.5s]"
     >
-      <Link to={'/chanchiferos_landing'}>
+      <Link to={'/chanchiferos_landing2'}>
         <ChanchiferosBaner />
       </Link>
       <div style={{}} className="flex gap-48  items-center">

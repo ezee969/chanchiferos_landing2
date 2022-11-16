@@ -42,13 +42,13 @@ const ProductCard = ({ product }) => {
 
         <Link
           className="w-1/2 bg-neutral-secondary rounded py-2 hover:bg-amber-100 transition-all"
-          to={`/chanchiferos_landing/products/${product.id}`}
+          to={`/chanchiferos_landing2/products/${product.id}`}
         >
           <img className="h-6 w-6 m-auto" src={eyeImg} alt="" />
         </Link>
       </div>
       <Link
-        to={`/chanchiferos_landing/products/${product.id}`}
+        to={`/chanchiferos_landing2/products/${product.id}`}
         className="flex justify-between items-center cursor-pointer px-2 py-3 text-positive-button rounded-lg hover:bg-neutral-100 dark:hover:bg-slate-900 transition-all"
       >
         <TranslatedText tid="seeDetails" />

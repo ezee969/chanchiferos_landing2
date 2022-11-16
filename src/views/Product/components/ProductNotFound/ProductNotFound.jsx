@@ -20,7 +20,7 @@ const ProductNotFound = () => {
           </p>
           <div className="flex gap-5">
             <Link
-              to={'/chanchiferos_landing/products'}
+              to={'/chanchiferos_landing2/products'}
               className="bg-positive-button text-lg py-2 px-6 text-white rounded transition-all hover:bg-positive-button-darker active:bg-positive-button-active"
             >
               <TranslatedText tid="visitProducts" />
