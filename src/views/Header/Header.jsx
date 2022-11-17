@@ -5,6 +5,7 @@ import { links } from './utils/links';
 import { LanguageSelector, ThemeSwitch } from './components';
 import ChanchiferosBaner from 'utils/images/ChanchiferosBaner';
 import { Link } from 'react-router-dom';
+import { TranslatedText } from 'components';
 
 const Header = () => {
   const [show, setShow] = useState(true);
@@ -59,6 +60,18 @@ const Header = () => {
           <ul className="flex gap-12 ">{renderLinks}</ul>
         </nav>
         <div className="flex items-center gap-8">
+          <Link
+            className="active:opacity-95 border border-neutral-background py-2 px-6 text-sm hover:bg-neutral-background transition-all hover:text-green-primary text-neutral-background rounded "
+            to={'/chanchiferos_landing2/register'}
+          >
+            <TranslatedText tid={'register'} />
+          </Link>
+          <Link
+            className="active:opacity-95  hover:border-neutral-background border transition-all hover:bg-green-primary hover:text-neutral-background bg-neutral-background py-2 px-6 text-sm text-green-primary rounded mr-3"
+            to={'/chanchiferos_landing2/sign-in'}
+          >
+            <TranslatedText tid={'signIn'} />
+          </Link>
           <LanguageSelector />
         </div>
       </div>
