@@ -11,41 +11,41 @@ const PaymentMethod = ({ handleIsCheckingOut }) => {
       <p className="text-xl font-medium text-slate-900 mb-9">Checkout</p>
       <p className=" font-medium text-slate-500 mb-6">Select your payment method</p>
       <div>
-        <div className="flex gap-10 flex-wrap">
-          <div className="flex flex-col mr-4  gap-1 cursor-pointer">
+        <div className="flex  gap-4 flex-wrap justify-center">
+          <div className="justify-center flex h-28 bg-slate-50 flex-col  gap-1 cursor-pointer items-center border border-green-primary rounded-xl px-3 w-28 py-2">
             <p className="font-medium  tracking-tight text-slate-500 text-sm">QR</p>
             <img
-              className="border border-yellow-secondary h-14 w-14 bg-slate-50 rounded-lg p-1"
+              className="h-14 w-14 bg-slate-50 rounded-lg p-2"
               src={qrImg}
               alt=""
             />
           </div>
-          <div className="flex mr-4 flex-col gap-1 cursor-pointer">
+          <div className="justify-center flex  h-28 bg-slate-50   flex-col gap-1 cursor-pointer items-center border border-green-primary rounded-xl px-3 w-28 py-3">
             <p className="font-medium  tracking-tight text-slate-500 text-sm">
               CRYPTO
             </p>
             <img
-              className="border border-yellow-secondary h-14 w-14 bg-slate-50 rounded-lg p-1"
+              className="h-14 w-14 bg-slate-50 rounded-lg p-2"
               src={cryptoImg}
               alt=""
             />
           </div>{' '}
-          <div className="flex  mr-4 flex-col gap-1 cursor-pointer">
+          <div className="justify-center flex  h-28 bg-slate-50    flex-col gap-1 cursor-pointer items-center border border-green-primary rounded-xl px-3 w-28 py-2">
             <p className="font-medium  tracking-tight text-slate-500 text-sm">
               CASH
             </p>
             <img
-              className="border border-yellow-secondary h-14 w-14 bg-slate-50 rounded-lg p-1"
+              className="h-14 w-14 bg-slate-50 rounded-lg p-2"
               src={cashImg}
               alt=""
             />
           </div>{' '}
-          <div className="flex flex-col gap-1 cursor-pointer">
+          <div className="justify-center flex h-28 bg-slate-50  flex-col gap-1 cursor-pointer items-center border border-green-primary rounded-xl px-3 w-28 py-2">
             <p className="font-medium  tracking-tight text-slate-500 text-sm">
               CREDIT CARD
             </p>
             <img
-              className="border border-yellow-secondary h-14 w-14 bg-slate-50 rounded-lg p-1"
+              className="h-14 w-14 bg-slate-50 rounded-lg p-2"
               src={creditCardImg}
               alt=""
             />
