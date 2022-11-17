@@ -49,7 +49,7 @@ const AboutUs = () => {
           ></div>
         </div>
         <div className={parragraphStyle}>
-          <p className="text-4xl font-semibold text-brown-primary">
+          <p className="text-4xl font-semibold text-slate-800">
             <TranslatedText tid="aboutUsUpper" />
           </p>
           <p className="text-slate-500 text-lg">
@@ -64,7 +64,7 @@ const AboutUs = () => {
             amet officia!
           </p>
           <div className="flex gap-2 items-center">
-            <p className="tracking-tight text-positive-button text-sm font-medium">
+            <p className="tracking-tight text-positive-button text-sm font-medium cursor-pointer">
               <TranslatedText tid="moreAboutUs" />
             </p>
             <img className="w-3 h-3" src={miniArrowImg} alt="" />
