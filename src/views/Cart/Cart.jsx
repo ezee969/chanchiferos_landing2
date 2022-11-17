@@ -12,15 +12,7 @@ const Cart = () => {
   };
 
   return (
-    <div
-      style={{
-        // backgroundImage: `url(${heroWave})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: ' 100% 60%',
-        backgroundPosition: 'bottom',
-      }}
-      className="w-full h-screen flex justify-center items-center bg-neutral-background"
-    >
+    <div className="w-full h-screen flex justify-center items-center bg-neutral-background">
       <div className="w-[70%] flex justify-between">
         <div className="w-[70%] px-4 flex flex-col gap-2">
           <p className="text-xl font-medium text-slate-900">Shopping cart</p>

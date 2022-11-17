@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { links } from './utils/links';
 //components/ui
-import { LanguageSelector, ThemeSwitch } from './components';
+import { LanguageSelector } from './components';
 import ChanchiferosBaner from 'utils/images/ChanchiferosBaner';
 import shoppingCartImg from 'utils/images/shopping-cart.png';
 import { Link } from 'react-router-dom';
