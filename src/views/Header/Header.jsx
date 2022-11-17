@@ -4,6 +4,7 @@ import { links } from './utils/links';
 //components/ui
 import { LanguageSelector, ThemeSwitch } from './components';
 import ChanchiferosBaner from 'utils/images/ChanchiferosBaner';
+import shoppingCartImg from 'utils/images/shopping-cart.png';
 import { Link } from 'react-router-dom';
 import { TranslatedText } from 'components';
 
@@ -57,22 +58,28 @@ const Header = () => {
       </Link>
       <div style={{}} className="flex gap-48  items-center">
         <nav>
-          <ul className="flex gap-12 ">{renderLinks}</ul>
+          <ul className="flex gap-10 ">{renderLinks}</ul>
         </nav>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
           <Link
-            className="active:opacity-95 border border-neutral-background py-2 px-6 text-sm hover:bg-neutral-background transition-all hover:text-green-primary text-neutral-background rounded "
+            className="active:opacity-95 border  border-neutral-background py-2 px-6 text-sm hover:bg-neutral-background transition-all hover:text-green-primary text-neutral-background rounded "
             to={'/chanchiferos_landing2/register'}
           >
             <TranslatedText tid={'register'} />
           </Link>
           <Link
-            className="active:opacity-95  hover:border-neutral-background border transition-all hover:bg-green-primary hover:text-neutral-background bg-neutral-background py-2 px-6 text-sm text-green-primary rounded mr-3"
+            className="active:opacity-95   hover:border-neutral-background border transition-all hover:bg-green-primary hover:text-neutral-background bg-neutral-background py-2 px-8 text-sm text-green-primary rounded mr-6"
             to={'/chanchiferos_landing2/sign-in'}
           >
             <TranslatedText tid={'signIn'} />
           </Link>
           <LanguageSelector />
+          <Link
+            to={'/chanchiferos_landing2/cart'}
+            className="rounded-full border-2 p-2 border-neutral-secondary hover:scale-105 transition-all active:scale-95 active:opacity-90"
+          >
+            <img className="w-6 h-6" src={shoppingCartImg} alt="" />
+          </Link>
         </div>
       </div>
     </header>
