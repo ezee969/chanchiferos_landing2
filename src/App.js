@@ -12,6 +12,7 @@ import {
   AboutUs,
   Cart,
   ContactUs,
+  Success,
 } from 'views';
 import { products } from 'utils/files/products';
 
@@ -38,6 +39,7 @@ function App() {
         <Route path={`${BASE_URL}/about-us`} element={<AboutUs />} />
         <Route path={`${BASE_URL}/cart`} element={<Cart />} />
         <Route path={`${BASE_URL}/contact-us`} element={<ContactUs />} />
+        <Route path={`${BASE_URL}/success`} element={<Success />} />
       </Routes>
       <Footer />
     </div>
