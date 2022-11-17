@@ -6,8 +6,12 @@ const CartItem = ({ title, size, gender, code, price, img }) => {
   return (
     <div className="flex flex-col border-b border-slate-300">
       <div className="py-8 flex gap-3">
-        <div className="rounded-xl">
-          <img className="w-36 h-28 rounded-xl" src={img} alt="" />
+        <div className="rounded-xl w-56 h-28">
+          <img
+            className=" w-full h-auto bg-brown-primary rounded-lg"
+            src={img}
+            alt=""
+          />
         </div>
         <div className="flex justify-between w-full">
           <div className="flex flex-col gap-1">
