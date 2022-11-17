@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chanchiferos_landing2/static/css/main.8345546a.css",
-    "main.js": "/chanchiferos_landing2/static/js/main.7c866c0e.js",
+    "main.css": "/chanchiferos_landing2/static/css/main.17d67de9.css",
+    "main.js": "/chanchiferos_landing2/static/js/main.c19a165e.js",
     "static/media/pig-offer.png": "/chanchiferos_landing2/static/media/pig-offer.3ea36828dc1e41369c29.png",
     "static/media/big_pig.png": "/chanchiferos_landing2/static/media/big_pig.9e460560fd5c4870a249.png",
     "static/media/cart-pig-2.png": "/chanchiferos_landing2/static/media/cart-pig-2.a0aac53012979e8e4f6f.png",
@@ -15,11 +15,11 @@
     "static/media/wave.png": "/chanchiferos_landing2/static/media/wave.b6829a64c0dfbe41ce4b.png",
     "static/media/pigsPainting.jpg": "/chanchiferos_landing2/static/media/pigsPainting.c24a3936176c7bc03a3d.jpg",
     "index.html": "/chanchiferos_landing2/index.html",
-    "main.8345546a.css.map": "/chanchiferos_landing2/static/css/main.8345546a.css.map",
-    "main.7c866c0e.js.map": "/chanchiferos_landing2/static/js/main.7c866c0e.js.map"
+    "main.17d67de9.css.map": "/chanchiferos_landing2/static/css/main.17d67de9.css.map",
+    "main.c19a165e.js.map": "/chanchiferos_landing2/static/js/main.c19a165e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8345546a.css",
-    "static/js/main.7c866c0e.js"
+    "static/css/main.17d67de9.css",
+    "static/js/main.c19a165e.js"
   ]
 }
